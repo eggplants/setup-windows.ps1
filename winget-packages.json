@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
-  "CreationDate": "2024-07-07T22:25:08.023-00:00",
+  "CreationDate": "2025-10-13T21:43:33.603-00:00",
   "Sources": [
     {
       "Packages": [
@@ -11,22 +11,43 @@
           "PackageIdentifier": "Docker.DockerDesktop"
         },
         {
+          "PackageIdentifier": "Git.Git"
+        },
+        {
+          "PackageIdentifier": "PPSSPPTeam.PPSSPP"
+        },
+        {
+          "PackageIdentifier": "RustDesk.RustDesk"
+        },
+        {
           "PackageIdentifier": "Piriform.Speccy"
         },
         {
-          "PackageIdentifier": "Microsoft.PowerShell"
+          "PackageIdentifier": "Microsoft.VCRedist.2010.x64"
         },
         {
-          "PackageIdentifier": "Nvidia.GeForceExperience"
+          "PackageIdentifier": "Microsoft.VCRedist.2008.x64"
+        },
+        {
+          "PackageIdentifier": "Google.GoogleDrive"
         },
         {
           "PackageIdentifier": "Google.Chrome"
         },
         {
+          "PackageIdentifier": "Nvidia.PhysX"
+        },
+        {
+          "PackageIdentifier": "Microsoft.PowerShell"
+        },
+        {
+          "PackageIdentifier": "CometNetwork.BitComet"
+        },
+        {
           "PackageIdentifier": "Microsoft.Edge"
         },
         {
-          "PackageIdentifier": "Microsoft.EdgeWebView2Runtime"
+          "PackageIdentifier": "OBSProject.OBSStudio"
         },
         {
           "PackageIdentifier": "QNAP.QfinderPro"
@@ -35,16 +56,40 @@
           "PackageIdentifier": "Valve.Steam"
         },
         {
-          "PackageIdentifier": "Microsoft.VCRedist.2012.x86"
+          "PackageIdentifier": "Microsoft.VisualStudio.2022.Community"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VCRedist.2013.x64"
+        },
+        {
+          "PackageIdentifier": "Microsoft.DotNet.DesktopRuntime.6"
         },
         {
           "PackageIdentifier": "Microsoft.VCRedist.2015+.x86"
         },
         {
-          "PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
+          "PackageIdentifier": "Google.ChromeRemoteDesktopHost"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VCRedist.2012.x86"
+        },
+        {
+          "PackageIdentifier": "Python.Launcher"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VCRedist.2008.x86"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VCRedist.2013.x86"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VCRedist.2010.x86"
         },
         {
           "PackageIdentifier": "Microsoft.VCRedist.2012.x64"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VCRedist.2015+.x64"
         },
         {
           "PackageIdentifier": "Amazon.Kindle"
@@ -53,13 +98,25 @@
           "PackageIdentifier": "Maxon.CinebenchR23"
         },
         {
-          "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
-        },
-        {
           "PackageIdentifier": "Microsoft.OneDrive"
         },
         {
-          "PackageIdentifier": "Canonical.Ubuntu.2204"
+          "PackageIdentifier": "yt-dlp.FFmpeg"
+        },
+        {
+          "PackageIdentifier": "yt-dlp.yt-dlp"
+        },
+        {
+          "PackageIdentifier": "Microsoft.VisualStudioCode"
+        },
+        {
+          "PackageIdentifier": "mpv.net"
+        },
+        {
+          "PackageIdentifier": "Python.Python.3.10"
+        },
+        {
+          "PackageIdentifier": "Microsoft.Teams"
         },
         {
           "PackageIdentifier": "Microsoft.AppInstaller"
@@ -74,7 +131,13 @@
           "PackageIdentifier": "Microsoft.VCLibs.Desktop.14"
         },
         {
+          "PackageIdentifier": "Microsoft.WingetCreate"
+        },
+        {
           "PackageIdentifier": "Microsoft.WindowsTerminal"
+        },
+        {
+          "PackageIdentifier": "JanDeDobbeleer.OhMyPosh"
         }
       ],
       "SourceDetails": {
@@ -83,7 +146,20 @@
         "Name": "winget",
         "Type": "Microsoft.PreIndexed.Package"
       }
+    },
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "XPDM1ZW6815MQM"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+        "Identifier": "StoreEdgeFD",
+        "Name": "msstore",
+        "Type": "Microsoft.Rest"
+      }
     }
   ],
-  "WinGetVersion": "1.8.1791"
+  "WinGetVersion": "1.11.510"
 }
